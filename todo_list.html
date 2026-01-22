@@ -6,8 +6,9 @@
     <title>Document</title>
 
     <style>
+        body{background-color:rgb(252, 252, 238);}
         .container{
-            background-color: aquamarine;
+            background-color: rgba(167, 109, 39, 0.838);
             width: 8cm;
             height: 8cm;
             border-radius: 4px;
@@ -17,14 +18,37 @@
 <body>
      <h1>To list</h1>
 
+     
+
      <div class="container">
-        <ul>
-            <li>Watch a match </li>
-            <li>Code</li>
-            <li>Clean</li>
-            <li>Watch bro code</li>
-            <li>Cook</li>
+        <input type="text"><br>
+        <button id="addbtn">add</button>
+        <button id="delbtn">del</button>
+        <button id="searchbtn">search</button>
+        
+        <ul id="taskList">
+             <li>
+                <span class="task-text">Watch a match</span>
+                <button class="delete-task">X</button>
+            </li>
+
+            <li>
+                <span class="task-text">Clean</span>
+                <button class="delete-task">x</button>
+            </li>
+
+            <li>
+                <span class="task-text">Watch bro code</span>
+                <button class="delete-task">x</button>
+            </li>
+
+            <li>
+                <span class="task-text">Cook</span>
+                <button class="delete-task">x</button>
+            </li>
+                        
         </ul>
+           
      </div>
     
 </body>
